@@ -361,5 +361,16 @@
 
     })();
 
+    var typed = new Typed("#typed", {
+        strings: ["CS Student", "Backend Developer", "Lifelong Learner"],
+        typeSpeed: 35,
+        startDelay: 500,
+        backDelay: 1000,
+        backSpeed: 35,
+        loop: true,
+        loopCount: 10,
+        showCursor: true
+    });
+
 })(document.documentElement);
 
