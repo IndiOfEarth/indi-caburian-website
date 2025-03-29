@@ -372,5 +372,18 @@
         showCursor: true
     });
 
+    var typedlist = new Typed("#typedlist", {
+        strings: ["Python, C++, Java, AWS, Backend Frameworks, UI Design, Software Design, Cybersecurity, Prototyping"],
+        typeSpeed: 35,
+        startDelay: 5000,
+        backDelay: 1000,
+        backSpeed: 35,
+        loop: true,
+        loopCount: 1,
+        showCursor: true
+    });
+
+    
+
 })(document.documentElement);
 
