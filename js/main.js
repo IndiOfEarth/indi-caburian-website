@@ -362,22 +362,22 @@
     })();
 
     var typed = new Typed("#typed", {
-        strings: ["CS Student", "Backend Developer", "Lifelong Learner"],
-        typeSpeed: 35,
+        strings: ["Lifelong Learner", "CS Student", "Backend Developer"],
+        typeSpeed: 50,
         startDelay: 500,
         backDelay: 1000,
-        backSpeed: 35,
+        backSpeed: 50,
         loop: true,
-        loopCount: 10,
+        loopCount: 5,
         showCursor: true
     });
 
     var typedlist = new Typed("#typedlist", {
         strings: ["Python, C++, Java, AWS, Backend Frameworks, UI Design, Software Design, Cybersecurity, Prototyping"],
-        typeSpeed: 35,
+        typeSpeed: 50,
         startDelay: 5000,
         backDelay: 1000,
-        backSpeed: 35,
+        backSpeed: 50,
         loop: true,
         loopCount: 1,
         showCursor: true
